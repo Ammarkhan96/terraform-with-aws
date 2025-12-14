@@ -16,14 +16,13 @@ Welcome to Day 06 of the Terraform AWS Course! This lesson provides **comprehens
 ## 📁 Lesson Structure
 
 ```
-day08/
+day06/
 ├── provider.tf      # AWS provider configuration
 ├── variables.tf     # Input variables (list, set, map, object types)
 ├── local.tf         # Local values and common tags
 ├── backend.tf       # S3 backend configuration
 ├── main.tf          # Main resource definitions with count and for_each examples
 ├── output.tf        # Output values demonstrating for loops
-├── task.md          # Hands-on exercises and tasks
 └── README.md        # This file
 
 
