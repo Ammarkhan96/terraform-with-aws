@@ -45,7 +45,7 @@ This will create a VPC and a subnet.
 Now, we'll run the main Terraform configuration that uses data sources.
 
 ```bash
-cd ../.. # Go back to the day13/code directory
+cd ../.. # Go back to the day11/code directory
 terraform init
 terraform plan
 ```
