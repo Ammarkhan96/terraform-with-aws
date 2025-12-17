@@ -33,7 +33,7 @@ Our Terraform code will:
 First, we need to simulate the creation of the shared network resources.
 
 ```bash
-cd lessons/day13/code/setup
+cd terraform-practice/day11/code/setup
 terraform init
 terraform apply
 ```
@@ -59,7 +59,7 @@ terraform apply
 ### 3. Verification
 
 1.  Go to the AWS EC2 console.
-2.  Find the instance named `day13-instance`.
+2.  Find the instance named `day11-instance`.
 3.  Check its "Networking" details. You will see that it is in the `shared-network-vpc` and `shared-primary-subnet`, confirming that the data sources worked correctly.
 
 ### 4. Cleanup
@@ -68,7 +68,7 @@ To destroy the resources created in this lesson:
 
 ```bash
 # Destroy the instance
-cd lessons/day13/code
+cd terraform-practice/day11/code
 terraform destroy
 
 # Destroy the shared VPC and subnet
